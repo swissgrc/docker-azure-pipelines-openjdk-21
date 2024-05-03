@@ -35,18 +35,12 @@ The following example shows the container used for a deployment step which shows
 
 | Tag         | Description                                                                                   | Base Image                       | OpenJDK   | Size                                                                                                                                |
 |-------------|-----------------------------------------------------------------------------------------------|----------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------|
-| latest      | Latest stable release (from `main` branch)                                                    | azure-pipelines-dockercli:25.0.3 | 21.0.2.0  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/latest?style=flat-square)      |
+| latest      | Latest stable release (from `main` branch)                                                    | azure-pipelines-dockercli:26.1.1 | 21.0.3.0  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/latest?style=flat-square)      |
 | 21          | Identical to `latest` tag                                                                     |                                  |           | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/21?style=flat-square)          |
-| unstable    | Latest unstable release (from `develop` branch)                                               | azure-pipelines-dockercli:25.0.3 | 21.0.2.0  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/unstable?style=flat-square)    |
+| unstable    | Latest unstable release (from `develop` branch)                                               | azure-pipelines-dockercli:26.1.1 | 21.0.3.0  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/unstable?style=flat-square)    |
 | 21-unstable | Identical to `unstable` tag                                                                   |                                  |           | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/21-unstable?style=flat-square) |
-
-### Configuration
-
-These environment variables are supported:
-
-| Environment variable   | Default value        | Description                                                      |
-|------------------------|----------------------|------------------------------------------------------------------|
-| OPENJDK_VERSION        | `21.0.2.0.0+13`      | Version of Eclipse Temurin OpenJDK installed in the image.       |
+| 21.0.2.0    | Eclipse Temurin 21.0.2                                                                        | azure-pipelines-dockercli:25.0.3 | 21.0.2.0  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/21.0.2.0?style=flat-square)    |
+| 21.0.3.0    | Eclipse Temurin 21.0.3                                                                        | azure-pipelines-dockercli:26.1.1 | 21.0.3.0  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-openjdk/21.0.3.0?style=flat-square)    |
 
 [Eclipse Temurin OpenJDK]: https://adoptium.net/temurin/
 [Azure Pipelines container jobs]: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases
