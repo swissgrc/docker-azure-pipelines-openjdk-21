@@ -49,7 +49,7 @@ COPY --from=build /etc/apt/sources.list.d/ /etc/apt/sources.list.d
 # Install OpenJDK
 
 # renovate: datasource=adoptium-java depName=java-jdk versioning=loose
-ENV OPENJDK_VERSION=21.0.4.0.0+7-1
+ENV OPENJDK_VERSION=21.0.5+11.0.LTS
 
 # Install OpenJDK
 RUN apt-get update -y && \
